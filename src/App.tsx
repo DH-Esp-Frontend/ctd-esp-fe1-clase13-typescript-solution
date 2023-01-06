@@ -17,9 +17,9 @@ function App() {
         </div>
         <div>
             <h3>Edades</h3>
-            {edades.map((edad,index) => {return (
+            {edades.map((edad,index) =>(
                 <div key={index}>{edad}</div>
-            )}) }
+            )) }
         </div>
         <div>
             <h3>Quien es Mayor</h3>
